@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2F433D631932F00300A6005E /* libKaoLafmSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F433D621932F00300A6005E /* libKaoLafmSDK.a */; };
 		2F8E40DD17B1F1DB00DBD9D6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F8E40DC17B1F1DB00DBD9D6 /* UIKit.framework */; };
 		2F8E40DF17B1F1DB00DBD9D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F8E40DE17B1F1DB00DBD9D6 /* Foundation.framework */; };
 		2F8E40E117B1F1DB00DBD9D6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F8E40E017B1F1DB00DBD9D6 /* CoreGraphics.framework */; };
@@ -17,16 +16,12 @@
 		2F8E40EF17B1F1DB00DBD9D6 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F8E40EE17B1F1DB00DBD9D6 /* Default.png */; };
 		2F8E40F117B1F1DB00DBD9D6 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F8E40F017B1F1DB00DBD9D6 /* Default@2x.png */; };
 		2F8E40F317B1F1DB00DBD9D6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F8E40F217B1F1DB00DBD9D6 /* Default-568h@2x.png */; };
-		2F8E40F617B1F1DB00DBD9D6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F8E40F517B1F1DB00DBD9D6 /* ViewController.m */; };
-		2F8E40F917B1F1DB00DBD9D6 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F8E40F717B1F1DB00DBD9D6 /* ViewController.xib */; };
 		2F8E410217B1FBCB00DBD9D6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F8E410017B1FBB300DBD9D6 /* QuartzCore.framework */; };
 		2F8E410417B20FD700DBD9D6 /* zan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2F8E410317B20FD700DBD9D6 /* zan.jpg */; };
+		4F5680C11F98A5CE009FA2C6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F5680C01F98A5CE009FA2C6 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2F433D621932F00300A6005E /* libKaoLafmSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libKaoLafmSDK.a; sourceTree = "<group>"; };
-		2F433D641932F05400A6005E /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		2F433D651932F05E00A6005E /* KaoLafmSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KaoLafmSDK.h; sourceTree = "<group>"; };
 		2F8E40D917B1F1DB00DBD9D6 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F8E40DC17B1F1DB00DBD9D6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2F8E40DE17B1F1DB00DBD9D6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -40,12 +35,11 @@
 		2F8E40EE17B1F1DB00DBD9D6 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		2F8E40F017B1F1DB00DBD9D6 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		2F8E40F217B1F1DB00DBD9D6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		2F8E40F417B1F1DB00DBD9D6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2F8E40F517B1F1DB00DBD9D6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		2F8E40F817B1F1DB00DBD9D6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		2F8E40FF17B1F41F00DBD9D6 /* MaroConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaroConfig.h; sourceTree = "<group>"; };
 		2F8E410017B1FBB300DBD9D6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		2F8E410317B20FD700DBD9D6 /* zan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zan.jpg; sourceTree = "<group>"; };
+		4F5680BF1F98A5CE009FA2C6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4F5680C01F98A5CE009FA2C6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +49,6 @@
 			files = (
 				2F8E410217B1FBCB00DBD9D6 /* QuartzCore.framework in Frameworks */,
 				2F8E40DD17B1F1DB00DBD9D6 /* UIKit.framework in Frameworks */,
-				2F433D631932F00300A6005E /* libKaoLafmSDK.a in Frameworks */,
 				2F8E40DF17B1F1DB00DBD9D6 /* Foundation.framework in Frameworks */,
 				2F8E40E117B1F1DB00DBD9D6 /* CoreGraphics.framework in Frameworks */,
 			);
@@ -67,9 +60,6 @@
 		2F433D611932F00300A6005E /* lib */ = {
 			isa = PBXGroup;
 			children = (
-				2F433D641932F05400A6005E /* SecondViewController.h */,
-				2F433D651932F05E00A6005E /* KaoLafmSDK.h */,
-				2F433D621932F00300A6005E /* libKaoLafmSDK.a */,
 			);
 			path = lib;
 			sourceTree = "<group>";
@@ -108,9 +98,8 @@
 			children = (
 				2F8E40EB17B1F1DB00DBD9D6 /* AppDelegate.h */,
 				2F8E40EC17B1F1DB00DBD9D6 /* AppDelegate.m */,
-				2F8E40F417B1F1DB00DBD9D6 /* ViewController.h */,
-				2F8E40F517B1F1DB00DBD9D6 /* ViewController.m */,
-				2F8E40F717B1F1DB00DBD9D6 /* ViewController.xib */,
+				4F5680BF1F98A5CE009FA2C6 /* ViewController.h */,
+				4F5680C01F98A5CE009FA2C6 /* ViewController.m */,
 				2F8E40E317B1F1DB00DBD9D6 /* Supporting Files */,
 			);
 			path = FMAnimations;
@@ -187,7 +176,6 @@
 				2F8E40EF17B1F1DB00DBD9D6 /* Default.png in Resources */,
 				2F8E40F117B1F1DB00DBD9D6 /* Default@2x.png in Resources */,
 				2F8E40F317B1F1DB00DBD9D6 /* Default-568h@2x.png in Resources */,
-				2F8E40F917B1F1DB00DBD9D6 /* ViewController.xib in Resources */,
 				2F8E410417B20FD700DBD9D6 /* zan.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -199,9 +187,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F5680C11F98A5CE009FA2C6 /* ViewController.m in Sources */,
 				2F8E40E917B1F1DB00DBD9D6 /* main.m in Sources */,
 				2F8E40ED17B1F1DB00DBD9D6 /* AppDelegate.m in Sources */,
-				2F8E40F617B1F1DB00DBD9D6 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,14 +202,6 @@
 				2F8E40E617B1F1DB00DBD9D6 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		2F8E40F717B1F1DB00DBD9D6 /* ViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2F8E40F817B1F1DB00DBD9D6 /* en */,
-			);
-			name = ViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

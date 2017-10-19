@@ -1,55 +1,40 @@
 //
 //  ViewController.m
-//  FMAnimations
+//  Demo
 //
-//  Created by housl on 13-8-7.
-//  Copyright (c) 2013年 housl. All rights reserved.
+//  Created by Mac Hou on 2017/10/19.
+//  Copyright © 2017年 housl. All rights reserved.
 //
 
-#import <QuartzCore/QuartzCore.h>
 #import "ViewController.h"
-#import "SecondViewController.h"
 
 @interface ViewController ()
+
 @end
 
 @implementation ViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
-    UIBarButtonItem *popMenuItem = [[UIBarButtonItem alloc] initWithTitle:@"按钮"
-                                                                    style:UIBarButtonItemStyleBordered
-                                                                   target:self
-                                                                   action:@selector(rightBarButtonClick:)];
-    self.navigationItem.rightBarButtonItem = popMenuItem;
+    // Do any additional setup after loading the view.
     
     
-
+    self.view.backgroundColor = [UIColor grayColor];
 }
-    
-    
 
-- (void)didReceiveMemoryWarning
-{
+- (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
 
-- (IBAction)buttonClick:(id)sender {
-    
-    
-    NSLog(@"-----------------buttonClick-----------");
-    
-    SecondViewController *second = [[SecondViewController alloc] init];
-    [self.navigationController pushViewController:second animated:YES];
-    
-    
-}
+/*
+#pragma mark - Navigation
 
--(void)rightBarButtonClick:(id)sender{
-    NSLog(@"rightBarButtonClick");
+// In a storyboard-based application, you will often want to do a little preparation before navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
 }
-
+*/
 
 @end

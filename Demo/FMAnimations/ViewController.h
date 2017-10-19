@@ -1,15 +1,13 @@
 //
 //  ViewController.h
-//  FMAnimations
+//  Demo
 //
-//  Created by housl on 13-8-7.
-//  Copyright (c) 2013年 housl. All rights reserved.
+//  Created by Mac Hou on 2017/10/19.
+//  Copyright © 2017年 housl. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-
-- (IBAction)buttonClick:(id)sender;
 
 @end
